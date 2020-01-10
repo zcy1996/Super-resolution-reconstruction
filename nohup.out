@@ -1,0 +1,23 @@
+2019-06-19 17:26:04.816207: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-06-19 17:26:04.825606: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600060000 Hz
+2019-06-19 17:26:04.828832: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x7f9d675898f0 executing computations on platform Host. Devices:
+2019-06-19 17:26:04.828857: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-06-19 17:26:05.018448: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:02:00.0
+totalMemory: 15.90GiB freeMemory: 8.12GiB
+2019-06-19 17:26:05.018488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-06-19 17:26:05.019300: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-19 17:26:05.019311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2019-06-19 17:26:05.019316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2019-06-19 17:26:05.019531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7901 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+2019-06-19 17:26:05.021544: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x7f9d67cd2ec0 executing computations on platform CUDA. Devices:
+2019-06-19 17:26:05.021561: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): Tesla P100-PCIE-16GB, Compute Capability 6.0
+2019-06-19 17:26:05.024902: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-06-19 17:26:05.024923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-19 17:26:05.024930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2019-06-19 17:26:05.024934: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2019-06-19 17:26:05.025110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7901 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0, compute capability: 6.0)
+WARNING:tensorflow:From /public/home/jiaruisheng/.conda/envs/jiaruisheng/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
